@@ -18,6 +18,7 @@ export const IntroWrapper = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
+
 `;
 
 export const Details = styled.div`
