@@ -16,16 +16,12 @@ export const Intro = () => {
         <Details theme={theme}>
           <h1>Hi There!</h1>
           <h4>I’m Demari and I’m a Front-End engineer!</h4>
-          <div>
-            <Button as={AnchorLink} href="#contact">
-              Hire me
-            </Button>
-          </div>
-          <div>
-            <Button as={AnchorLink} href="#contact">
-              Download Resume
-            </Button>
-          </div>
+          <Button tertiary as={AnchorLink} href="#contact">
+            Hire me
+          </Button>
+          <Button tertiary as={AnchorLink} href="#contact">
+            Download Resume
+          </Button>
         </Details>
         <Thumbnail>
           <img src={dev} alt="I’m Demari and I am a front-end engineer" />
