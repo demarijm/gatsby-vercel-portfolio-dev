@@ -19,9 +19,12 @@ export const Intro = () => {
           <Button as={AnchorLink} href="#contact">
             Hire me
           </Button>
+          <Button as={AnchorLink} href="#contact">
+            Download Resume
+          </Button>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a JAMStack engineer!" />
+          <img src={dev} alt="I’m Demari and I am a front-end engineer" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>
