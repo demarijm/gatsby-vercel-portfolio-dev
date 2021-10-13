@@ -28,4 +28,11 @@ export const Button = styled.button`
     `
 		background: #001F3F;
 	`}
+
+  ${({ tertiary }) =>
+    tertiary &&
+    `
+  background: #0169FF;
+  margin-right: 5px;
+`}
 `;
